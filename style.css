@@ -1,0 +1,64 @@
+.form-container {
+    padding: 8rem 0 0 8rem;
+    max-width: 720px;
+}
+
+.card{
+    background: #fff;
+    color: #161819;
+}
+
+.container {
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.input-from-control {
+    background: transparent;
+    border: thin solid rgba(255,255,255,.4);
+    border-radius: 4px;
+    color: #fff;
+    width: 100%;
+    padding: 1rem 1.8rem;
+    font-size: 1.0rem;
+}
+
+.input-from-control:focus {
+    color: white;
+    background:transparent;
+    border: thin solid rgba(255,255,255,1);
+    box-shadow: 0 0 5px 1px rgb(206, 206, 206);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', 'Helvetica Neue', 'Arial', 'Helvetica', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: normal;
+    height: 100%;
+    background-color: #1C1F21;
+    color: #fff;
+}
+
+.icons-fa{
+    cursor: pointer;
+}
