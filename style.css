@@ -62,3 +62,8 @@ body {
 .icons-fa{
     cursor: pointer;
 }
+
+.icons-fa:hover{
+    transition: transform .2s;
+    transform : scale(1.20);
+}
